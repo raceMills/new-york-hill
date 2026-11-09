@@ -224,7 +224,7 @@ footer.site a { color: var(--ink); }
 .notfound h2 { font-family: var(--display); font-weight: 500; font-size: 36px; margin: 0 0 12px; }
 
 @media (max-width: 720px) {
-  .masthead { padding-top: 88px; }
+  .masthead { padding-top: 120px; }
   .two-col, .menu-grid { grid-template-columns: 1fr; }
   .frames { grid-template-columns: repeat(2, 1fr); }
   .panel { padding: 24px; }
