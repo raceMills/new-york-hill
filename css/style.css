@@ -186,12 +186,14 @@ table.hours td:last-child { text-align: right; font-variant-numeric: tabular-num
 
 /* Hero view (illustration on home page) */
 .hero-view { margin: 0 0 40px; }
-.hero-view svg {
+.hero-view img, .hero-view svg {
   display: block;
   width: 100%;
   height: auto;
   border: 1px solid var(--rule);
 }
+.photo-wide { margin: 0 0 40px; }
+.photo-wide img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); }
 .hero-view figcaption {
   margin-top: 10px;
   text-align: center;
