@@ -142,6 +142,15 @@ p { margin: 0 0 16px; }
 
 .divider { border: 0; border-top: 1px solid var(--rule); margin: 44px 0; }
 
+/* Nearby attractions */
+ul.attractions { list-style: none; margin: 0 0 20px; padding: 0; }
+ul.attractions li { padding: 16px 0; border-bottom: 1px solid var(--rule); }
+ul.attractions li:first-child { padding-top: 0; }
+ul.attractions li:last-child { border-bottom: 0; padding-bottom: 0; }
+ul.attractions strong { display: block; font-family: "Fraunces", Georgia, serif; font-weight: 500; font-size: 19px; margin-bottom: 4px; }
+ul.attractions span { display: block; color: var(--ink-soft); font-size: 15px; }
+p.note { font-size: 14px; color: var(--ink-soft); }
+
 /* Hours */
 table.hours { width: 100%; border-collapse: collapse; font-size: 15px; }
 table.hours td { padding: 10px 0; border-bottom: 1px solid var(--rule); }
