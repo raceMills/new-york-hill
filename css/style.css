@@ -184,6 +184,23 @@ table.hours td:last-child { text-align: right; font-variant-numeric: tabular-num
 
 .note { text-align: center; color: var(--ink-soft); font-size: 14px; margin: 28px 0 0; }
 
+/* Hero view (illustration on home page) */
+.hero-view { margin: 0 0 40px; }
+.hero-view svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+}
+.hero-view figcaption {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
 /* Google rating */
 .rating { margin: 0 0 8px; font-size: 15px; font-weight: 500; }
 .stars { color: var(--rust); letter-spacing: 2px; margin-right: 4px; }
