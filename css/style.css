@@ -83,7 +83,7 @@ nav.main a:hover { color: var(--ink); }
 nav.main a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--rust); }
 
 /* Content */
-main { padding: 56px 0 40px; min-height: 60vh; }
+main.wrap { padding-top: 64px; padding-bottom: 40px; min-height: 60vh; }
 .tagline {
   font-family: var(--display);
   font-style: italic;
