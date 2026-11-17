@@ -261,3 +261,6 @@ footer.site .social-links { margin-top: 10px; }
   nav.main a { font-size: 13px; padding: 14px 2px 12px; }
 }
 
+
+/* History sub-headings */
+h4.sub-label { font-family: "Fraunces", Georgia, serif; font-weight: 500; font-size: 19px; margin: 28px 0 10px; }
