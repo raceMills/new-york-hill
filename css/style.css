@@ -261,8 +261,3 @@ footer.site .social-links { margin-top: 10px; }
   nav.main a { font-size: 13px; padding: 14px 2px 12px; }
 }
 
-/* Gallery */
-.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; margin-bottom: 40px; }
-.gallery figure { margin: 0; }
-.gallery img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border: 1px solid var(--rule); background: #e7dfd0; }
-.gallery figcaption { font-size: 14px; color: var(--ink-soft); margin-top: 8px; }
